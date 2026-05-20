@@ -1,8 +1,11 @@
 
 import React from "react";
+// import { useContext } from "react";
 import { Link } from "react-router";
+import { AuthContext } from "../Provider/AuthContext";
 
 const Login = () => {
+  // const {name} = useContext(AuthContext)
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
