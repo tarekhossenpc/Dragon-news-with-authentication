@@ -29,25 +29,34 @@ const Register = () => {
           <form onSubmit={handleRegister} className="card-body">
             <fieldset className="fieldset">
               {/* Name */}
-              <label className="label">Your Name</label>
+              <label className="label" for="Name">
+                Your Name
+              </label>
               <input
                 name="name"
+                id="Name"
                 type="text"
                 className="input"
                 placeholder="Enter Your Name"
                 required
               />
               {/* Photo */}
-              <label className="label">Photo Url</label>
+              <label className="label" for="pic">
+                Photo Url
+              </label>
               <input
+                id="pic"
                 name="photo"
                 type="text"
                 className="input"
                 placeholder="Enter your Photo"
               />
               {/* Email */}
-              <label className="label">Email</label>
+              <label className="label" for="email">
+                Email
+              </label>
               <input
+                id="email"
                 name="email"
                 type="email"
                 className="input"
@@ -55,9 +64,12 @@ const Register = () => {
                 required
               />
               {/* Password */}
-              <label className="label">Password</label>
+              <label className="label" for="pass">
+                Password
+              </label>
               <input
                 name="password"
+                id="pass"
                 type="password"
                 className="input"
                 placeholder="Password"
